@@ -1,0 +1,18 @@
+{
+  "name": "security-hardening",
+  "description": "אבטחת סביבת Claude Code — 3 שכבות הגנה: deny rules, security hooks, כללי בית. מיועד לבעלי עסקים שמשתמשים ב-Claude Code עם API keys ו-.env",
+  "version": "1.0.0",
+  "author": {
+    "name": "טל בשור",
+    "url": "https://talbs.co.il"
+  },
+  "keywords": [
+    "security",
+    "hardening",
+    "env-protection",
+    "hooks",
+    "hebrew",
+    "claude-code"
+  ],
+  "license": "MIT"
+}

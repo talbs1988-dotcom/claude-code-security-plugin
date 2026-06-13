@@ -25,11 +25,30 @@ Claude קורא קובץ `CLAUDE.md` בתחילת כל שיחה. אנחנו כו
 
 ## התקנה — הודעה אחת לצ'אט
 
+פתחי Claude Code, הדביקי את ההודעה הזו ושלחי:
+
 ```
-תתקין ותפעיל: https://github.com/talbs1988-dotcom/claude-code-security-plugin
+קרא וקיים: https://raw.githubusercontent.com/talbs1988-dotcom/claude-code-security-plugin/main/plugins/security-hardening/skills/security-and-hardening/SKILL.md
 ```
 
-Claude יעשה את הכל: יתקין, יגדיר, ויאשר שהכול ירוק.
+Claude יעשה את הכל: יבצע את 3 השכבות ויאשר שהכול ירוק. **לא צריך restart.**
+
+---
+
+## מה Claude יעשה
+
+1. **יבדוק** אם `jq` מותקן (נחוץ לhook) — אם לא, ינחה אותך להתקין
+2. **יוסיף deny rules** ל-`~/.claude/settings.json` — חוסמות קריאת `.env`
+3. **יוסיף security hook** שמונע `cat .env` מהטרמינל
+4. **יוסיף כללי אבטחה** ל-`~/.claude/CLAUDE.md`
+5. **יריץ בדיקת תקינות** ויאשר ✅ לכל שכבה
+
+---
+
+## דרישות
+
+- Claude Code מותקן
+- macOS עם Homebrew (לצורך `brew install jq` אם חסר)
 
 ---
 

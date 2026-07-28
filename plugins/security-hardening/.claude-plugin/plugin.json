@@ -1,7 +1,7 @@
 {
   "name": "security-hardening",
-  "description": "אבטחת סביבת Claude Code — 3 שכבות הגנה: deny rules, security hooks, כללי בית. מיועד לבעלי עסקים שמשתמשים ב-Claude Code עם API keys ו-.env",
-  "version": "1.0.0",
+  "description": "אבטחת סביבת Claude Code — 4 שכבות הגנה: deny rules, security hooks, כללי בית, וכלל לסוכן מחובר-כלים (הגנה מפני prompt injection). מיועד לבעלי עסקים שמשתמשים ב-Claude Code עם API keys, .env וחיבורי MCP",
+  "version": "1.1.0",
   "author": {
     "name": "טל בשור",
     "url": "https://talbs.co.il"

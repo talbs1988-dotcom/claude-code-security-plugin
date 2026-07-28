@@ -5,15 +5,15 @@
     "url": "https://talbs.co.il"
   },
   "metadata": {
-    "description": "אבטחת סביבת Claude Code — 3 שכבות הגנה לבעלי עסקים שעובדים עם AI",
-    "version": "1.0.0"
+    "description": "אבטחת סביבת Claude Code — 4 שכבות הגנה לבעלי עסקים שעובדים עם AI",
+    "version": "1.1.0"
   },
   "plugins": [
     {
       "name": "security-hardening",
       "source": "./plugins/security-hardening",
-      "description": "מאבטח את סביבת Claude Code שלך — חוסם קריאת .env, מוסיף hooks אבטחתיים, מגדיר כללי בית",
-      "version": "1.0.0",
+      "description": "מאבטח את סביבת Claude Code שלך — חוסם קריאת .env, מוסיף hooks אבטחתיים, מגדיר כללי בית, ומגן מפני prompt injection דרך תוכן חיצוני",
+      "version": "1.1.0",
       "category": "security",
       "tags": ["security", "hardening", "env", "hooks", "hebrew", "business"]
     }
